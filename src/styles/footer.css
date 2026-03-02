@@ -1,0 +1,76 @@
+.footer {
+
+    background: #020617;
+
+    color: white;
+
+    padding: 40px;
+
+    text-align: center;
+
+}
+
+
+.newsletter {
+
+    margin: 20px 0;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    flex-wrap: wrap;
+
+}
+
+
+.newsletter input {
+
+    padding: 10px;
+
+    border: none;
+
+    border-radius: 5px;
+
+}
+
+
+.newsletter button {
+
+    padding: 10px;
+
+    border: none;
+
+    background: cyan;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+
+}
+
+
+copyright {
+
+    margin-top: 20px;
+
+    color: gray;
+
+}
+
+
+
+/* Responsive */
+
+
+@media(max-width:600px) {
+
+    .newsletter {
+
+        flex-direction: column;
+
+    }
+
+}

@@ -1,0 +1,54 @@
+.analytics-container {
+
+    height: 100vh;
+
+    background: #020617;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+.analytics-card {
+
+    background: rgba(255, 255, 255, 0.1);
+
+    backdrop-filter: blur(10px);
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    color: white;
+
+    width: 350px;
+
+}
+
+
+.progress {
+
+    background: gray;
+
+    height: 20px;
+
+    border-radius: 10px;
+
+    margin-top: 20px;
+
+}
+
+
+.progress-bar {
+
+    background: cyan;
+
+    height: 100%;
+
+    border-radius: 10px;
+
+}
