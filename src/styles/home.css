@@ -67,3 +67,7 @@
     color: bisque;
 
 }
+
+::-webkit-scrollbar{
+    display: none;;
+}
